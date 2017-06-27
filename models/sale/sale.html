@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="../../common/css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="sale.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <h1 class="mui-title">出售书籍</h1>
+		</header>
+		<div class="mui-content">
+			<div class="edit-inner mui-content-padded">
+				<form class="mui-input-group">
+					<div class="mui-input-row">
+						<label>ISBN</label>
+						<input type="text" name="outisbn" id="outisbn" class="mui-input-clear" placeholder="请输入书籍ISBN(13位)">
+					</div>
+					<div class="mui-button-row">
+						<div class="barcode mui-btn mui-btn-primary mui-btn-outlined" id="barcode">扫描书籍条形码获取ISBN</div>
+					</div>
+					<div class="mui-input-row">
+						<label>单价</label>
+						<input type="number" name="outprice" id="outprice" class="mui-input-clear" placeholder="请输入书籍单价(元)">
+					</div>
+					<div class="mui-input-row">
+						<label>数量</label>
+						<div class="book-num mui-numbox" data-numbox-step='1' data-numbox-min='1'>
+							<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+							<input class="mui-input-numbox" type="number" name="outnum" id="outnum" />
+							<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+						</div>
+					</div>
+					<div class="mui-button-row">
+						<button id="outSubmit" class="mui-btn mui-btn-primary" type="button" onclick="return false;">确认</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<script src="../../common/js/mui.min.js"></script>
+		<script src="../../common/js/app.js"></script>
+		<script src="sale.js"></script>
+	</body>
+
+</html>

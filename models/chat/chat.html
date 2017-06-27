@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="../../common/css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../../common/iconfont.css" />
+		<link rel="stylesheet" href="chat.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-pull-left"><i class="mui-icon mui-icon-left-nav"></i></a>
+			<h1 class="mui-title">张三</h1>
+			<a class="mui-pull-right"><i class="mui-icon mui-icon-person-filled"></i></a>
+		</header>
+		<div class="mui-content">
+			<div class="chat-list">
+				<div class="chat-box-time">
+					<span class="chat-time">昨天10:00</span>
+				</div>
+
+				<div class="chat-box chat-box-left mui-clearfix mui-content-padded">
+					<img class="chat-avatar" src="" alt="" />
+					<div class="chat-content">
+						<div class="chat-content-inner">MSG</div>
+						<div class="chat-content-arrow"></div>
+					</div>
+					<div class="clear-box"></div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer-input">
+				<textarea id="msg-input" class="input-text" name="" rows="" cols=""></textarea>
+			</div>
+			<div class="footer-right">
+				<i id="more" class="mui-icon mui-icon-plus"></i>
+				<i id="send" class="mui-icon mui-icon-redo"></i>
+			</div>
+			<div class="footer-more">
+				<ul class="mui-table-view mui-grid-view mui-grid-9">
+					<li class="mui-table-view-cell mui-media mui-col-xs-3">
+						<a href="#" id="picture">
+							<span class="mui-icon iconfont icon-picture"></span>
+							<div class="mui-media-body">图片</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+		<script src="../../common/js/mui.min.js"></script>
+		<script src="../../common/iconfont.js"></script>
+		<script src="../../common/av.js"></script>
+		<script src="../../common/realtime.browser.min.js"></script>
+		<script src="../../common/typed-messages.min.js"></script>
+		<script src="../../common/js/app.js"></script>
+		<script src="chat.js"></script>
+	</body>
+
+</html>

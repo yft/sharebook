@@ -1,0 +1,27 @@
+.paddingLeft15 {
+	padding-left: 15px;
+}
+
+.book-list {
+	padding: 10px;
+}
+#category {
+	margin-bottom: 10px;
+}
+.book-operbtn {
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#OA_task_2 li {
+	padding-left: 15px;
+}
+
+.book-oper {
+	display: inline-block;
+	color: #555;
+	background: #ddd;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 0 2px;
+}

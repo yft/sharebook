@@ -1,0 +1,352 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"models/login/login.html": {
+		"resources": [
+			"models/login/login.css",
+			"models/login/login.js",
+			"models/login/app.js",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"js/mui.enterfocus.js",
+			"models/login/style.css",
+			"fonts/mui.ttf",
+			"common/css/mui.min.css",
+			"common/js/mui.min.js",
+			"common/js/mui.enterfocus.js",
+			"common/js/app.js",
+			"common/fonts/mui.ttf"
+		],
+		"refer": [
+			"models/login/reg.html",
+			"models/login/forget_password.html",
+			"models/main/main.html"
+		]
+	},
+	"models/login/reg.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"models/login/style.css",
+			"css/mui.min.css",
+			"models/login/reg.js",
+			"models/login/app.js",
+			"js/mui.min.js",
+			"models/login/reg.css",
+			"common/css/mui.min.css",
+			"common/fonts/mui.ttf",
+			"common/js/app.js",
+			"common/js/mui.min.js",
+			"common/av.js"
+		],
+		"refer": []
+	},
+	"models/login/forget_password.html": {
+		"resources": [
+			"models/login/forget_password.css",
+			"models/login/forget_password.js",
+			"fonts/mui.ttf",
+			"models/login/style.css",
+			"css/mui.min.css",
+			"models/login/app.js",
+			"js/mui.min.js",
+			"common/css/mui.min.css"
+		],
+		"refer": []
+	},
+	"models/main/main.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"models/main/main.css",
+			"models/main/main.js",
+			"js/mui.min.js",
+			"models/store/store.html",
+			"css/mui.min.css",
+			"common/fonts/mui.ttf",
+			"common/css/mui.min.css",
+			"common/js/mui.min.js",
+			"models/edit/edit.html",
+			"common/js/app.js"
+		],
+		"refer": [
+			"models/mine/mine.html",
+			"models/store/store.html",
+			"models/find/find.html",
+			"models/friends/friends.html",
+			"models/chat/chat.html",
+			"models/edit/edit.html",
+			"models/sale/sale.html",
+			"models/shelf/shelf.html"
+		]
+	},
+	"models/store/store.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"models/store/store.css",
+			"js/app.js",
+			"models/store/store.js",
+			"common/fonts/mui.ttf",
+			"common/css/mui.min.css",
+			"common/js/app.js",
+			"common/js/mui.min.js"
+		],
+		"refer": [
+			"models/store/booklist.html"
+		]
+	},
+	"models/mine/mine.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"common/css/mui.min.css",
+			"common/js/mui.min.js",
+			"models/mine/mine.js",
+			"common/js/app.js",
+			"models/mine/mine.css"
+		],
+		"refer": [
+			"models/login/login.html",
+			"models/mine/wanted.html",
+			"models/mine/buyed.html",
+			"models/mine/editInfo.html"
+		]
+	},
+	"models/find/find.html": {
+		"resources": [
+			"models/find/find.css",
+			"models/find/find.js",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"common/css/mui.min.css",
+			"common/js/mui.min.js"
+		]
+	},
+	"models/chat/chat.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"common/css/mui.min.css",
+			"common/js/mui.min.js",
+			"common/fonts/mui.ttf",
+			"models/chat/chat.css",
+			"common/realtime.browser.min.js",
+			"common/typed-messages.min.js",
+			"models/chat/chat.js",
+			"common/av.js",
+			"common/iconfont.js",
+			"common/iconfont.css",
+			"common/iconfont.woff",
+			"common/js/app.js"
+		]
+	},
+	"models/friends/friends.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"models/friends/friends.css",
+			"models/friends/friends.js",
+			"js/app.js",
+			"fonts/mui.ttf",
+			"common/fonts/mui.ttf",
+			"common/css/mui.min.css",
+			"common/js/app.js",
+			"common/js/mui.min.js",
+			"common/iconfont.css",
+			"common/iconfont.js",
+			"common/iconfont.woff"
+		],
+		"refer": [
+			"models/chat/chat.html"
+		]
+	},
+	"models/edit/edit.html": {
+		"resources": [
+			"models/edit/edit.js",
+			"common/css/mui.min.css",
+			"common/js/mui.min.js",
+			"common/fonts/mui.ttf",
+			"models/edit/edit.css",
+			"common/js/app.js",
+			"common/av.js"
+		],
+		"refer": [
+			"models/edit/booklist.html"
+		]
+	},
+	"models/edit/location.html": {
+		"resources": [
+			"models/edit/location.css",
+			"models/edit/location.js",
+			"common/fonts/mui.ttf",
+			"common/css/mui.min.css",
+			"common/js/mui.min.js",
+			"common/js/app.js",
+			"common/av.js",
+			"models/edit/location.html"
+		],
+		"refer": [
+			"models/edit/location.html"
+		]
+	},
+	"models/edit/booklist.html": {
+		"resources": [
+			"models/edit/booklist.js",
+			"models/edit/booklist.css",
+			"common/fonts/mui.ttf",
+			"common/css/mui.min.css",
+			"common/js/app.js",
+			"common/js/mui.min.js",
+			"common/av.js"
+		],
+		"refer": [
+			"models/edit/location.html"
+		]
+	},
+	"models/sale/sale.html": {
+		"resources": [
+			"common/js/app.js",
+			"models/sale/sale.js",
+			"common/css/mui.min.css",
+			"models/sale/sale.css",
+			"common/js/mui.min.js"
+		],
+		"refer": [
+			"models/sale/booklist.html",
+			"models/sale/scanner.html"
+		]
+	},
+	"models/shelf/shelf.html": {
+		"resources": [
+			"common/iconfont.js",
+			"common/iconfont.css",
+			"models/shelf/shelf.js",
+			"common/iconfont.woff",
+			"models/shelf/shelf.css",
+			"common/css/mui.min.css",
+			"common/fonts/mui.ttf",
+			"common/js/app.js",
+			"common/js/mui.min.js"
+		],
+		"refer": [
+			"models/shelf/friend.html",
+			"models/shelf/wantedlist.html"
+		]
+	},
+	"models/sale/location.html": {
+		"resources": [
+			"models/sale/location.js",
+			"models/sale/location.css",
+			"common/css/mui.min.css"
+		]
+	},
+	"models/sale/booklist.html": {
+		"resources": [
+			"common/css/mui.min.css",
+			"models/sale/booklist.css",
+			"models/sale/booklist.js",
+			"common/av.js",
+			"common/fonts/mui.ttf",
+			"common/js/app.js",
+			"common/js/mui.min.js"
+		],
+		"refer": [
+			"models/sale/location.html"
+		]
+	},
+	"models/shelf/friend.html": {
+		"resources": [
+			"models/shelf/friend.css",
+			"common/iconfont.css",
+			"common/css/mui.min.css",
+			"models/shelf/friend.js",
+			"common/iconfont.woff",
+			"common/fonts/mui.ttf",
+			"common/js/app.js",
+			"common/js/mui.min.js"
+		]
+	},
+	"models/shelf/wantedlist.html": {
+		"resources": [
+			"models/shelf/wantedlist.js",
+			"common/iconfont.css",
+			"common/css/mui.min.css",
+			"models/shelf/wantedlist.css",
+			"common/fonts/mui.ttf",
+			"common/js/app.js",
+			"common/js/mui.min.js",
+			"common/av.js"
+		]
+	},
+	"models/store/booklist.html": {
+		"resources": [
+			"common/css/mui.min.css",
+			"models/store/booklist.css",
+			"models/store/booklist.js",
+			"common/av.js",
+			"common/fonts/mui.ttf",
+			"common/js/app.js",
+			"common/js/mui.min.js"
+		],
+		"refer": [
+			"models/store/detail.html"
+		]
+	},
+	"models/store/detail.html": {
+		"resources": [
+			"models/store/detail.js",
+			"models/store/detail.css",
+			"common/css/mui.min.css"
+		]
+	},
+	"models/mine/wanted.html": {
+		"resources": [
+			"common/css/mui.min.css",
+			"models/mine/wanted.js",
+			"models/mine/wanted.css",
+			"common/fonts/mui.ttf",
+			"common/js/app.js",
+			"common/js/mui.min.js",
+			"common/av.js"
+		]
+	},
+	"models/mine/buyed.html": {
+		"resources": [
+			"models/mine/buyed.css",
+			"common/css/mui.min.css",
+			"models/mine/buyed.js",
+			"common/av.js",
+			"common/fonts/mui.ttf",
+			"common/js/app.js",
+			"common/js/mui.min.js"
+		]
+	},
+	"models/mine/editInfo.html": {
+		"resources": [
+			"models/mine/editInfo.js",
+			"common/css/mui.min.css",
+			"models/mine/editInfo.css",
+			"common/av.js",
+			"common/fonts/mui.ttf",
+			"common/js/app.js",
+			"common/js/mui.min.js"
+		]
+	},
+	"models/sale/scanner.html": {
+		"resources": [
+			"common/css/mui.min.css",
+			"models/sale/sale.css",
+			"common/light1.png",
+			"common/fonts/mui.ttf",
+			"common/js/app.js",
+			"common/js/mui.min.js",
+			"models/sale/scanner.css",
+			"models/sale/scanner.js"
+		]
+	}
+}

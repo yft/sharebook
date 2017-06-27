@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="../../common/css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../../common/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="shelf.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">我的书架</h1>
+		</header>
+		<div class="mui-content">
+			<div class="book-list mui-content-padded">
+				<div class="mui-segmented-control" id="category">
+					<a class="mui-control-item mui-active" data-booktype="notyet">未售完</a>
+					<a class="mui-control-item" data-booktype="saled">已售完</a>
+					<a class="mui-control-item" data-booktype="withdraw">已下架</a>
+				</div>
+				<ul class="mui-table-view" id="booklist">
+					
+				</ul>
+			</div>
+		</div>
+		<script src="../../common/js/mui.min.js"></script>
+		<script src="../../common/iconfont.js"></script>
+		<script src="../../common/js/app.js"></script>
+		<script src="shelf.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,11 @@
+.red {
+	color: tomato;
+	float: right;
+}
+.nav-right {
+	line-height: 44px;
+}
+.mui-table-view-cell {
+	padding: 0px 15px;
+	line-height: 40px;
+}

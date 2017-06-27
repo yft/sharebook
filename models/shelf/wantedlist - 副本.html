@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="../../common/css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../../common/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="wantedlist.css"/>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">想要购买这本书的人</h1>
+		</header>
+		<div class="mui-content">
+			<ul class="mui-table-view">
+			    <li class="mui-table-view-cell mui-media">
+			        <a href="javascript:;">
+			            <img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+			            <div class="mui-media-body">
+							幸福
+			                <p>
+			                	<span class="wantedlist-oper saledtota">出售给TA</span>
+			                	<span class="wantedlist-oper chattota">与TA聊天</span>
+			                </p>
+			            </div>
+			        </a>
+			    </li>
+			</ul>
+		</div>
+		<div id="chatway" class="mui-popover mui-popover-bottom mui-popover-action ">
+		<!-- 可选择菜单 -->
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell chatByQQ">
+					与TAQQ聊天
+					<a href="#"></a>
+				</li>
+				<li class="mui-table-view-cell copyWechat">
+					<a href="#">复制TA的微信账号</a>
+				</li>
+				</ul>
+				<!-- 取消菜单 -->
+				<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a href="#sheet1"><b>取消</b></a>
+				</li>
+			</ul>
+		</div>
+		<script src="../../common/js/mui.min.js"></script>
+		<script src="../../common/js/app.js"></script>
+		<script src="wantedlist.js"></script>
+	</body>
+</html>

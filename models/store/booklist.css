@@ -1,0 +1,27 @@
+html, body, .mui-content {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+.mui-content {
+	position: relative;
+}
+#maps {
+	height: 260px;
+}
+.mui-scroll-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 304px;
+	box-sizing: border-box;
+}
+.store-want {
+	padding: 5px 0;
+	margin-top: 10px;
+}
+.store-remain {
+	color: #000;
+}

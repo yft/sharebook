@@ -1,0 +1,7 @@
+html, body, .mui-content {
+	height: 100%;
+}
+.store-search {
+	padding: 10px 10px 0;
+	margin-bottom: -5px;
+}

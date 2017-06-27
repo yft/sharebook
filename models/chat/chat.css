@@ -1,0 +1,124 @@
+html, body, .mui-content {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	-webkit-user-select: none;
+}
+.chat-list {
+	height: 100%;
+	overflow: auto;
+	-webkit-user-select: none;
+	background-color: #fff;
+	padding-bottom: 50px;
+}
+.chat-box .chat-avatar {
+	height: 40px;
+	width: 40px;
+}
+.chat-box .chat-content {
+	position: relative;
+	border: 1px solid #d8d8d8;
+	padding: 10px;
+	border-radius: 10px;
+	max-width: 70%;
+	min-width: 35px;
+}
+.chat-box .chat-content .chat-content-inner {
+	min-height: 21px;
+	word-break: break-word;
+}
+.chat-box .chat-content .chat-content-arrow {
+	position: absolute;
+	top: 13px;
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border: 1px solid #d8d8d8;
+	transform: translateZ(45deg);
+	-webkit-transform: rotateZ(45deg);
+}
+.chat-box pre {
+	margin: 0;
+}
+/*左边*/
+.chat-box.chat-box-left .chat-content {
+	float: left;
+	margin-left: 13px;
+}
+.chat-box.chat-box-left .chat-content-arrow {
+	left: -6px;
+	border-top: none;
+	border-right: none;
+}
+.chat-box.chat-box-left .chat-avatar {
+	float: left;
+}
+/*右边*/
+.chat-box.chat-box-right .chat-content {
+	float: right;
+	margin-right: 13px;
+	background-color: #a9e55c;
+}
+.chat-box.chat-box-right .chat-content-arrow {
+	right: -6px;
+	border-bottom: none;
+	border-left: none;
+	background-color: #a9e55c;
+}
+.chat-box.chat-box-right .chat-avatar {
+	float: right;
+}
+/*聊天时间*/
+.chat-box-time {
+	text-align: center;
+	margin: 15px 0;
+}
+.chat-time {
+	color: #fff;
+	font-size: 13px;
+	background-color: #cfcfcf;
+	border-radius: 3px;
+	padding: 2px 4px;
+}
+/*输入框*/
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	min-height: 50px;
+	background-color: #fafafa;
+	border-top: 1px solid #f2f1f3;	
+}
+.footer-input {
+	height: 50px;
+	padding: 5px 80px 5px 10px;
+}
+.input-text {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	font-size: 16px;
+	line-height: 18px;
+	border: 1px solid #ddd;
+	padding: 10px 4px;
+}
+.footer-right {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 50px;
+	width: 80px;
+	padding: 13px 0;
+	text-align: center;
+}
+.footer-right .active {
+	color: #007aff;
+}
+.footer-more {
+	display: none;
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell>a:not(.mui-btn) {
+	padding: 0;
+}

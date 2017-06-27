@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="../../common/css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="booklist.css"/>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">符合条件的书籍</h1>
+		</header>
+		<div class="mui-content">			
+		    <ul class="mui-table-view" id="booklist">
+		    	
+		    </ul>
+		    <div id="popover" class="mui-popover">
+		    	<div class="mui-scroll-wrapper">
+		    	    <div class="mui-scroll">
+		    		    <ul class="mui-table-view">
+		    		    	<li class="mui-table-view-cell" data-location-select='yes'><a href="#">选择书籍交易点</a></li>
+		    		    	<!--<li class="mui-table-view-cell" data-location-select='no'><a href="#">不选择交易点</a></li>-->
+		    		    </ul>
+		    		</div>
+		    	</div>
+		    </div>
+		</div>
+		<script src="../../common/js/mui.min.js"></script>
+		<script src="../../common/av.js"></script>
+		<script src="../../common/js/app.js"></script>
+		<script src="booklist.js"></script>
+	</body>
+
+</html>

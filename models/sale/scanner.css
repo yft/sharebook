@@ -1,0 +1,7 @@
+.turn-on-light {
+	width: 44px;
+	height: 44px;
+}
+html, body, .mui-content, #bcid {
+	height: 100%;
+}

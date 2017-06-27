@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="../../common/css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="store.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <h1 class="mui-title">寻觅书籍</h1>
+		</header>
+		<div class="mui-content">
+			<div class="mui-card searchForm">
+				<form class="mui-input-group">
+				    <div class="mui-input-row">
+				        <label>ISBN</label>
+				    	<input type="text" name="isbn" class="mui-input-clear" placeholder="请输入ISBN">
+				    </div>
+				    <div class="mui-input-row">
+				        <label>书名</label>
+				    	<input type="text" name="bookname" class="mui-input-clear" placeholder="请输入书名">
+				    </div>
+				    <div class="mui-input-row">
+				        <label>作者</label>
+				    	<input type="text" name="author" class="mui-input-clear" placeholder="请输入作者">
+				    </div>
+				    <p class="input-tips"><span>*</span>以上皆为模糊匹配，可留空</p>
+				    <div class="mui-button-row">
+				        <button type="button" class="mui-btn mui-btn-primary" id="searchBooks">确认</button>
+				    </div>
+				</form>
+			</div>
+		</div>
+		
+		<script src="../../common/js/mui.min.js"></script>
+		<script src="../../common/js/app.js"></script>
+		<script src="store.js"></script>
+	</body>
+
+</html>
